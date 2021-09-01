@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: rgb(19, 3, 3);
+}
+
+.post {
+  width: 60%;
+  min-width: 320px;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 1%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(56, 10, 10);
+  border-radius: 25px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 90%;
+  height: fit-content;
+}
+
+.name-nickname-date {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+
+.link {
+  margin-right: 1%;
+  text-decoration: none;
+  color: #741414;
+}
+
+.link:last-child::before {
+  content: " · ";
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+
+
+.text {
+  text-align: left;
+}
+
+.post-picture {
+  width: 100%;
+  height: 300px;
+  background-color: darkslateblue;
+  border-radius: 25px;
+  margin-bottom: 2%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.color-white {
+  color: white;
+}
+
+.text {
+  white-space: pre-line;
+}
+
+.reactions {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reaction {
+  width: 50px;
+  max-height: 40px;
+  color: #741414;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+
+}
+
+.icon {
+  max-width: 40px;
+  margin-right: 20%;
+}
+
